@@ -19,8 +19,7 @@
         "mipmapfix.mixins.json"
     ],
     "depends": {
-        "fabricloader": ">=${loader_version}",
-        "fabric": "*",
+        "fabricloader": "*",
         "minecraft": "*"
     }
 }
