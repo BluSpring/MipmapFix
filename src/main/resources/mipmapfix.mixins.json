@@ -1,0 +1,17 @@
+{
+    "required": true,
+    "minVersion": "0.8",
+    "package": "xyz.bluspring.mipmapfix.mixin",
+    "compatibilityLevel": "JAVA_17",
+    "mixins": [
+    ],
+    "client": [
+        "MipmapGeneratorMixin",
+        "SpriteContentsMixin",
+        "SpriteContentsMixin$InterpolationDataMixin",
+        "SpriteLoaderMixin"
+    ],
+    "injectors": {
+        "defaultRequire": 1
+    }
+}
