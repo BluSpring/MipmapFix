@@ -3,12 +3,12 @@
     "id": "mipmapfix",
     "version": "${version}",
     "name": "MipmapFix",
-    "description": "Ports Forge's mipmap fixes to Fabric.",
+    "description": "Ever noticed that textures become very fuzzy when introducing a mod or two, maybe a resource pack? Here's your fix.",
     "authors": [
         "BluSpring"
     ],
     "contact": {
-        "repo": "https://github.com/BluSpring/MipmapFix"
+        "sources": "https://github.com/BluSpring/MipmapFix"
     },
     "license": "MIT",
     "icon": "assets/mipmapfix/icon.png",
@@ -19,7 +19,7 @@
         "mipmapfix.mixins.json"
     ],
     "depends": {
-        "fabricloader": "*",
+        "fabricloader": ">=0.19.3",
         "minecraft": "*"
     }
 }
