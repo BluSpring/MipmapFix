@@ -2,6 +2,16 @@
 Ever noticed that distant textures become *very* fuzzy when introducing a mod or two, maybe a resource pack? 
 Here's your fix.
 
+## Visual Comparison
+The difference is not actually immediately noticeable, unless you look closely at the images.
+
+<p align="center">Before vs After</p>
+
+<p align="center">
+<img src="/gallery/before.png" width="256">
+<img src="/gallery/after.png" width="256">
+</p>
+
 ## Why does this happen?
 One of your mods or resource packs has a texture that isn't a power of two being used in the blocks
 or items. A power of two texture is 16x16, 32x32, 64x64, 128x128, etc.

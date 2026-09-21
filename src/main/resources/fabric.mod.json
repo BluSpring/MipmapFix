@@ -11,7 +11,7 @@
         "sources": "https://github.com/BluSpring/MipmapFix"
     },
     "license": "MIT",
-    "icon": "assets/mipmapfix/icon.png",
+    "icon": "icon.png",
     "environment": "client",
     "entrypoints": {
     },
